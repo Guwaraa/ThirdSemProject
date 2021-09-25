@@ -1,0 +1,45 @@
+C:\Users\susha\source\repos\Theater Ticketing System\bin\Debug\Theater Ticketing System.exe.config
+C:\Users\susha\source\repos\Theater Ticketing System\bin\Debug\Theater Ticketing System.exe
+C:\Users\susha\source\repos\Theater Ticketing System\bin\Debug\Theater Ticketing System.pdb
+C:\Users\susha\source\repos\Theater Ticketing System\obj\Debug\Theater Ticketing System.csprojAssemblyReference.cache
+C:\Users\susha\source\repos\Theater Ticketing System\obj\Debug\Theater_Ticketing_System.TheaterTicketSystem.resources
+C:\Users\susha\source\repos\Theater Ticketing System\obj\Debug\Theater_Ticketing_System.Properties.Resources.resources
+C:\Users\susha\source\repos\Theater Ticketing System\obj\Debug\Theater Ticketing System.csproj.GenerateResource.cache
+C:\Users\susha\source\repos\Theater Ticketing System\obj\Debug\Theater Ticketing System.csproj.CoreCompileInputs.cache
+C:\Users\susha\source\repos\Theater Ticketing System\obj\Debug\Theater Ticketing System.exe
+C:\Users\susha\source\repos\Theater Ticketing System\obj\Debug\Theater Ticketing System.pdb
+C:\Users\susha\source\repos\Theater Ticketing System\obj\Debug\Theater Ticketing System.csproj.CopyComplete
+C:\Users\susha\source\repos\Theater Ticketing System\obj\Debug\Theater_Ticketing_System.SignUpWindow.resources
+C:\Users\susha\source\repos\Theater Ticketing System\bin\Debug\Guna.UI.dll
+C:\Users\susha\source\repos\Theater Ticketing System\obj\Debug\Theater_Ticketing_System.test.resources
+D:\Theater Ticketing System\bin\Debug\Theater Ticketing System.exe.config
+D:\Theater Ticketing System\bin\Debug\Theater Ticketing System.exe
+D:\Theater Ticketing System\bin\Debug\Theater Ticketing System.pdb
+D:\Theater Ticketing System\obj\Debug\Theater Ticketing System.csprojAssemblyReference.cache
+D:\Theater Ticketing System\obj\Debug\Theater_Ticketing_System.TheaterTicketSystem.resources
+D:\Theater Ticketing System\obj\Debug\Theater_Ticketing_System.Properties.Resources.resources
+D:\Theater Ticketing System\obj\Debug\Theater_Ticketing_System.SignUpWindow.resources
+D:\Theater Ticketing System\obj\Debug\Theater Ticketing System.csproj.GenerateResource.cache
+D:\Theater Ticketing System\obj\Debug\Theater Ticketing System.csproj.CoreCompileInputs.cache
+D:\Theater Ticketing System\obj\Debug\Theater Ticketing System.csproj.CopyComplete
+D:\Theater Ticketing System\obj\Debug\Theater Ticketing System.exe
+D:\Theater Ticketing System\obj\Debug\Theater Ticketing System.pdb
+D:\Theater Ticketing System\obj\Debug\Theater_Ticketing_System.MessageForm.resources
+D:\Theater Ticketing System\obj\Debug\Theater_Ticketing_System.AfterLogged.resources
+D:\Theater Ticketing System\obj\Debug\Theater_Ticketing_System.SettingForm.resources
+D:\Theater Ticketing System\obj\Debug\Theater_Ticketing_System.Passwordmodify.resources
+D:\Theater Ticketing System\obj\Debug\Theater_Ticketing_System.NewsPannel.resources
+D:\Theater Ticketing System\obj\Debug\Theater_Ticketing_System.MessboxForm.resources
+D:\Theater Ticketing System\obj\Debug\Theater_Ticketing_System.MovieDataentry.resources
+D:\Theater Ticketing System\obj\Debug\Theater_Ticketing_System.adddata.resources
+D:\Theater Ticketing System\obj\Debug\Theater_Ticketing_System.deletedata.resources
+D:\Theater Ticketing System\obj\Debug\Theater_Ticketing_System.editdata.resources
+D:\Theater Ticketing System\obj\Debug\Theater_Ticketing_System.Homepage.resources
+D:\Theater Ticketing System\bin\Debug\Interop.WMPLib.dll
+D:\Theater Ticketing System\bin\Debug\AxInterop.WMPLib.dll
+D:\Theater Ticketing System\obj\Debug\Interop.WMPLib.dll
+D:\Theater Ticketing System\obj\Debug\AxInterop.WMPLib.dll
+D:\Theater Ticketing System\obj\Debug\Theater Ticketing System.csproj.ResolveComReference.cache
+D:\Theater Ticketing System\obj\Debug\Theater_Ticketing_System.Displaymovie.resources
+D:\Theater Ticketing System\obj\Debug\Theater_Ticketing_System.TicketBook.resources
+D:\Theater Ticketing System\obj\Debug\Theater_Ticketing_System.BookedTicket.resources

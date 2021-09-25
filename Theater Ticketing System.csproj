@@ -1,0 +1,579 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4E4082FC-5F56-4774-A89E-1478103717F4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Theater_Ticketing_System</RootNamespace>
+    <AssemblyName>Theater Ticketing System</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>F:\Bunifu UI\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI">
+      <HintPath>F:\Guna.UI-Framework-Lib-master\Guna.UI WinForms\.net 2.0\Guna.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="adddata.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="adddata.Designer.cs">
+      <DependentUpon>adddata.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AfterLogged.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AfterLogged.Designer.cs">
+      <DependentUpon>AfterLogged.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BookedTicket.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BookedTicket.Designer.cs">
+      <DependentUpon>BookedTicket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="deletedata.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="deletedata.Designer.cs">
+      <DependentUpon>deletedata.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Displaymovie.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Displaymovie.Designer.cs">
+      <DependentUpon>Displaymovie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editdata.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="editdata.Designer.cs">
+      <DependentUpon>editdata.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Homepage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Homepage.Designer.cs">
+      <DependentUpon>Homepage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MessageForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MessageForm.Designer.cs">
+      <DependentUpon>MessageForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MessboxForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MessboxForm.Designer.cs">
+      <DependentUpon>MessboxForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MovieDataentry.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MovieDataentry.Designer.cs">
+      <DependentUpon>MovieDataentry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyGlobal.cs" />
+    <Compile Include="NewsPannel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NewsPannel.Designer.cs">
+      <DependentUpon>NewsPannel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Passwordmodify.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Passwordmodify.Designer.cs">
+      <DependentUpon>Passwordmodify.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SettingForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SettingForm.Designer.cs">
+      <DependentUpon>SettingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SignUpWindow.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SignUpWindow.Designer.cs">
+      <DependentUpon>SignUpWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TicketBook.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TicketBook.Designer.cs">
+      <DependentUpon>TicketBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserDetailDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UserDetailDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="UserDetailDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UserDetailDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="UserDetailDataSet2.cs">
+      <DependentUpon>UserDetailDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="UserDetailDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UserDetailDataSet2.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="adddata.resx">
+      <DependentUpon>adddata.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AfterLogged.resx">
+      <DependentUpon>AfterLogged.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BookedTicket.resx">
+      <DependentUpon>BookedTicket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="deletedata.resx">
+      <DependentUpon>deletedata.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Displaymovie.resx">
+      <DependentUpon>Displaymovie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editdata.resx">
+      <DependentUpon>editdata.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Homepage.resx">
+      <DependentUpon>Homepage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MessageForm.resx">
+      <DependentUpon>MessageForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MessboxForm.resx">
+      <DependentUpon>MessboxForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MovieDataentry.resx">
+      <DependentUpon>MovieDataentry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewsPannel.resx">
+      <DependentUpon>NewsPannel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Passwordmodify.resx">
+      <DependentUpon>Passwordmodify.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SettingForm.resx">
+      <DependentUpon>SettingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SignUpWindow.resx">
+      <DependentUpon>SignUpWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TicketBook.resx">
+      <DependentUpon>TicketBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="UserDetailDataSet.xsc">
+      <DependentUpon>UserDetailDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="UserDetailDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>UserDetailDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UserDetailDataSet.xss">
+      <DependentUpon>UserDetailDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="UserDetailDataSet1.xsc">
+      <DependentUpon>UserDetailDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="UserDetailDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>UserDetailDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UserDetailDataSet1.xss">
+      <DependentUpon>UserDetailDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="UserDetailDataSet2.xsc">
+      <DependentUpon>UserDetailDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="UserDetailDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>UserDetailDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UserDetailDataSet2.xss">
+      <DependentUpon>UserDetailDataSet2.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\800px_COLOURBOX31866283.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eye-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\computer-icons-cross-eye.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Holidays-Bell-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Very-Basic-Menu-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\108562270-simple-list-menu-icon-on-transparent-background-.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cinema-Add-Ticket-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ticket-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Settings-Window-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Messaging-Message-Group-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_power_off_button_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_error_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_add_user_male_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_add_user_male_100px_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_add_user_male_100px_11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_admin_settings_male_80px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_user_account_26px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_team_80px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Person_at_Home_40px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_hanging_frame_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_frame_40px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\picture-frame-png-favpng-tSf1xnNvgyWtLXkHiLwM9dSdC.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-icons-png-end-user-ico-11563023311aleysnhavq.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-icons-png-end-user-ico-11563023311aleysnhavq1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_go_back_40px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_left_80px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_right_button_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_down_right_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_expand_arrow_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HDRshooter-4K-wallpaper-044-3840x2160-X2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0cFvKO.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\man-300x300.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\47774.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-photo-255379.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo-1519750783826-e2420f4d687f.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-photo-2553791.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13313546-typography-background-with-news-words-on-white-background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_right_80px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_cancel_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_delete_bin_100px_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_message_preview_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_message_preview_64px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_double_left_40px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_double_right_40px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_message_preview_64px2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_new_message_40px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_postal_40px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_close_window_40px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kra.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qmN5Kp.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_2893.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inCmCRl_.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_view_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nepal-2020.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_macos_minimize_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_macos_minimize_32px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_compress_26px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_compress_26px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_compress_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_checkmark_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Photos-A-Cool-Touch-With-Online-Photo-Editor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\up1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxShockwaveFlashObjects">
+      <Guid>{D27CDB6B-AE6D-11CF-96B8-444553540000}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="ShockwaveFlashObjects">
+      <Guid>{D27CDB6B-AE6D-11CF-96B8-444553540000}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_chevron_up_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_double_up_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_double_up_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_chevron_up_64px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_double_up_64px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_pull_down_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_theatre_curtain_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\curtain.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_chair_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_chair_64px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_edit_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_add_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_add_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_double_tick_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_eye_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_print_48px.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
